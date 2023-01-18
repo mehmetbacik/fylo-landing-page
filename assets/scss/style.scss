@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
 :root {
+    --font__opensans: 'Open Sans', sans-serif;
+    --font__raleway: 'Raleway', sans-serif;
     --darkblue__intro: hsl(217, 28%, 15%);
     --darkblue__main: hsl(218, 28%, 13%);
     --darkblue__footer: hsl(216, 53%, 9%);
@@ -7,4 +11,20 @@
     --blue__call: hsl(198, 60%, 50%);
     --lightred__error: hsl(0, 100%, 63%);
     --white: hsl(0, 0%, 100%);
+}
+
+.fylo__landingpage {
+    background-color: var(--darkblue__main);
+    font-family: var(--font__opensans);
+    font-size: 14px;
+    header {
+        nav {
+            width: 100%;
+            .navbar-nav {
+                .nav-item {
+                    color: var(--white);
+                }
+            }
+        }
+    }
 }
