@@ -16,10 +16,58 @@
   background-color: var(--darkblue__main);
   font-family: var(--font__opensans);
   font-size: 14px;
+  color: var(--white);
+  line-height: normal;
+}
+.fylo__landingpage header {
+  background-color: var(--darkblue__intro);
 }
 .fylo__landingpage header nav {
   width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.fylo__landingpage header nav .navbar-nav .nav-item {
+.fylo__landingpage header nav .menu__nav .navbar-nav {
+  flex-direction: row;
+  gap: 40px;
+}
+.fylo__landingpage header nav .menu__nav .navbar-nav .nav-item {
   color: var(--white);
+}
+.fylo__landingpage main #get__started__section {
+  text-align: center;
+  margin-bottom: 100px;
+  background-color: var(--darkblue__intro);
+  background-image: url(/assets/img/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 30%;
+}
+.fylo__landingpage main #get__started__section .image {
+  margin-bottom: 50px;
+}
+.fylo__landingpage main #get__started__section .title {
+  margin-bottom: 30px;
+}
+.fylo__landingpage main #get__started__section .title span {
+  font-family: var(--font__raleway);
+  font-size: 40px;
+  font-weight: 600;
+}
+.fylo__landingpage main #get__started__section .content {
+  padding: 0 25%;
+  margin-bottom: 20px;
+}
+.fylo__landingpage main #get__started__section .content p {
+  font-size: 20px;
+}
+.fylo__landingpage main #get__started__section .button {
+  margin-bottom: 20px;
+}
+.fylo__landingpage main #get__started__section .button a {
+  background-color: var(--blue__call);
+  padding: 15px 60px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
