@@ -91,8 +91,45 @@
   font-family: var(--font__raleway);
   font-size: 20px;
   font-weight: 600;
+  text-align: center;
   margin-bottom: 10px;
 }
 .fylo__landingpage main #main__icons .mi__content .mi__item p {
   text-align: center;
+}
+.fylo__landingpage main #main__see__how__fylo__works {
+  margin-bottom: 120px;
+}
+.fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__image img {
+  width: 100%;
+}
+.fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 40px;
+}
+.fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text span {
+  font-family: var(--font__raleway);
+  font-size: 40px;
+  font-weight: 600;
+}
+.fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text p {
+  margin-bottom: 0;
+}
+.fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text a {
+  color: var(--cyan__call);
+  text-decoration: none;
+  border-bottom: solid 2px var(--cyan__call);
+  padding-bottom: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text a::after {
+  content: url(/assets/img/icon-arrow.svg);
+  line-height: 0;
 }/*# sourceMappingURL=style.css.map */
