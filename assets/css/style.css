@@ -27,14 +27,14 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.fylo__landingpage header nav .menu__nav .navbar-nav {
+.fylo__landingpage header nav .header__menu__nav .navbar-nav {
   flex-direction: row;
   gap: 40px;
 }
-.fylo__landingpage header nav .menu__nav .navbar-nav .nav-item {
+.fylo__landingpage header nav .header__menu__nav .navbar-nav .nav-item {
   color: var(--white);
 }
-.fylo__landingpage main #get__started__section {
+.fylo__landingpage main #main__get__started {
   text-align: center;
   margin-bottom: 100px;
   background-color: var(--darkblue__intro);
@@ -43,31 +43,56 @@
   background-position: bottom;
   background-size: 100% 30%;
 }
-.fylo__landingpage main #get__started__section .image {
+.fylo__landingpage main #main__get__started .mgs__image {
   margin-bottom: 50px;
 }
-.fylo__landingpage main #get__started__section .title {
+.fylo__landingpage main #main__get__started .mgs__title {
   margin-bottom: 30px;
 }
-.fylo__landingpage main #get__started__section .title span {
+.fylo__landingpage main #main__get__started .mgs__title span {
   font-family: var(--font__raleway);
   font-size: 40px;
   font-weight: 600;
 }
-.fylo__landingpage main #get__started__section .content {
+.fylo__landingpage main #main__get__started .mgs__content {
   padding: 0 25%;
   margin-bottom: 20px;
 }
-.fylo__landingpage main #get__started__section .content p {
+.fylo__landingpage main #main__get__started .mgs__content p {
   font-size: 20px;
 }
-.fylo__landingpage main #get__started__section .button {
+.fylo__landingpage main #main__get__started .mgs__button {
   margin-bottom: 20px;
 }
-.fylo__landingpage main #get__started__section .button a {
+.fylo__landingpage main #main__get__started .mgs__button a {
   background-color: var(--blue__call);
   padding: 15px 60px;
   border-radius: 30px;
   font-size: 16px;
   font-weight: 600;
+}
+.fylo__landingpage main #main__icons {
+  margin-bottom: 70px;
+}
+.fylo__landingpage main #main__icons .mi__content {
+  margin-bottom: 50px;
+}
+.fylo__landingpage main #main__icons .mi__content .mi__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 100px;
+}
+.fylo__landingpage main #main__icons .mi__content .mi__item img {
+  margin-bottom: 40px;
+}
+.fylo__landingpage main #main__icons .mi__content .mi__item span {
+  font-family: var(--font__raleway);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.fylo__landingpage main #main__icons .mi__content .mi__item p {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
