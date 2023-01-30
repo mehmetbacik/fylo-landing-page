@@ -173,4 +173,9 @@
 }
 .fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__profile .mc__profile__content .mc__profile__content__job {
   font-size: 11px;
+}
+.fylo__landingpage footer #footer__newsletter {
+  background-color: var(--darkblue__testimonials);
+  border-radius: 5px;
+  padding: 30px 40px;
 }/*# sourceMappingURL=style.css.map */
