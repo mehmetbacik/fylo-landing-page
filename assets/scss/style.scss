@@ -137,7 +137,48 @@
             }
         }
         #main__comment {
-            
+            background-image: url(/assets/img/bg-quotes.png);
+            background-repeat: no-repeat;
+            background-position: 15% top;
+            background-size: inherit;
+            padding: 35px;
+            .swiper {
+                .swiper-wrapper {
+                    .swiper-slide {
+                        background-color: var(--darkblue__testimonials);
+                        border-radius: 5px;
+                        .mc__content {
+                            padding: 25px;
+                            span {
+                                line-height: 1.5;
+                            }
+                        }
+                        .mc__profile {
+                            display: flex;
+                            align-items: center;
+                            gap:10px;
+                            padding: 0px 25px 25px;
+                            .mc__profile__image {
+                                img {
+                                    width: 50px;
+                                    height: 50px;
+                                    border-radius: 50%;
+                                }
+                            }
+                            .mc__profile__content {
+                                display: flex;
+                                flex-direction: column;
+                                .mc__profile__content__name {
+                                    font-weight: bold;
+                                }
+                                .mc__profile__content__job {
+                                    font-size: 11px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

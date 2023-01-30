@@ -132,4 +132,42 @@
 .fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text a::after {
   content: url(/assets/img/icon-arrow.svg);
   line-height: 0;
+}
+.fylo__landingpage main #main__comment {
+  background-image: url(/assets/img/bg-quotes.png);
+  background-repeat: no-repeat;
+  background-position: 15% top;
+  background-size: inherit;
+  padding: 35px;
+}
+.fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide {
+  background-color: var(--darkblue__testimonials);
+  border-radius: 5px;
+}
+.fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__content {
+  padding: 25px;
+}
+.fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__content span {
+  line-height: 1.5;
+}
+.fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 25px 25px;
+}
+.fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__profile .mc__profile__image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__profile .mc__profile__content {
+  display: flex;
+  flex-direction: column;
+}
+.fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__profile .mc__profile__content .mc__profile__content__name {
+  font-weight: bold;
+}
+.fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__profile .mc__profile__content .mc__profile__content__job {
+  font-size: 11px;
 }/*# sourceMappingURL=style.css.map */
