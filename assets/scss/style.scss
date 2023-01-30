@@ -188,7 +188,31 @@
         #footer__newsletter {
             background-color: var(--darkblue__testimonials);
             border-radius: 5px;
-            padding: 30px 40px;
+            padding: 35px 70px;
+            .fn__subscribe {
+                .fn__subscribe__intro {
+                    margin-bottom: 10px;
+                    h2 {
+                        font-size: 30px;
+                        font-weight: bold;
+                    }
+                    p {
+
+                    }
+                }
+                .fn__subscribe__form {
+                    display: flex;
+                    justify-content: center;
+                    gap: 20px;
+                    input {
+                        border-radius: 30px;
+                    }
+                    button {
+                        border-radius: 30px;
+                        background-color: var(--cyan__call);
+                    }
+                }
+            }
         }
     }
 }
