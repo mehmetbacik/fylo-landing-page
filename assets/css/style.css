@@ -134,11 +134,14 @@
   line-height: 0;
 }
 .fylo__landingpage main #main__comment {
+  margin-bottom: 120px;
+}
+.fylo__landingpage main #main__comment .container {
   background-image: url(/assets/img/bg-quotes.png);
   background-repeat: no-repeat;
-  background-position: 15% top;
+  background-position: left top;
   background-size: inherit;
-  padding: 35px;
+  padding: 30px 20px;
 }
 .fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide {
   background-color: var(--darkblue__testimonials);

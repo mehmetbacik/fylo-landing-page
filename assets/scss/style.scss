@@ -137,11 +137,14 @@
             }
         }
         #main__comment {
-            background-image: url(/assets/img/bg-quotes.png);
-            background-repeat: no-repeat;
-            background-position: 15% top;
-            background-size: inherit;
-            padding: 35px;
+            margin-bottom: 120px;
+            .container {
+                background-image: url(/assets/img/bg-quotes.png);
+                background-repeat: no-repeat;
+                background-position: left top;
+                background-size: inherit;
+                padding: 30px 20px;
+            }
             .swiper {
                 .swiper-wrapper {
                     .swiper-slide {

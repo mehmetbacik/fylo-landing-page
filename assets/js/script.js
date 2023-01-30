@@ -3,9 +3,9 @@ const swiper = new Swiper('.swiper', {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },*/
-    /*autoplay: {
+    autoplay: {
         delay: 3000,
-    },*/
+    },
     breakpoints: {
         0: {
             spaceBetween: 10,
