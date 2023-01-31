@@ -197,7 +197,7 @@
                         font-weight: bold;
                     }
                     p {
-
+                        padding: 0px 10px;
                     }
                 }
                 .fn__subscribe__form {
@@ -213,6 +213,9 @@
                     }
                 }
             }
+        }
+        #footer__content {
+            background-color: var(--darkblue__footer);
         }
     }
 }

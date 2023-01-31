@@ -186,6 +186,9 @@
   font-size: 30px;
   font-weight: bold;
 }
+.fylo__landingpage footer #footer__newsletter .fn__subscribe .fn__subscribe__intro p {
+  padding: 0px 10px;
+}
 .fylo__landingpage footer #footer__newsletter .fn__subscribe .fn__subscribe__form {
   display: flex;
   justify-content: center;
@@ -197,4 +200,7 @@
 .fylo__landingpage footer #footer__newsletter .fn__subscribe .fn__subscribe__form button {
   border-radius: 30px;
   background-color: var(--cyan__call);
+}
+.fylo__landingpage footer #footer__content {
+  background-color: var(--darkblue__footer);
 }/*# sourceMappingURL=style.css.map */
