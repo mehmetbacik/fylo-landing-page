@@ -200,7 +200,54 @@
 .fylo__landingpage footer #footer__newsletter .fn__subscribe .fn__subscribe__form button {
   border-radius: 30px;
   background-color: var(--cyan__call);
+  border-color: var(--cyan__call);
 }
 .fylo__landingpage footer #footer__content {
+  padding-top: 150px;
+  padding-bottom: 150px;
   background-color: var(--darkblue__footer);
+}
+.fylo__landingpage footer #footer__content .fc__location {
+  display: flex;
+  gap: 25px;
+  padding-right: 25px;
+}
+.fylo__landingpage footer #footer__content .fc__location::before {
+  content: url(/assets/img/icon-location.svg);
+}
+.fylo__landingpage footer #footer__content .fc__phone {
+  display: flex;
+  gap: 25px;
+  padding-right: 25px;
+}
+.fylo__landingpage footer #footer__content .fc__phone::before {
+  content: url(/assets/img/icon-phone.svg);
+}
+.fylo__landingpage footer #footer__content .fc__mail {
+  display: flex;
+  gap: 25px;
+  padding-right: 25px;
+}
+.fylo__landingpage footer #footer__content .fc__mail::before {
+  content: url(/assets/img/icon-email.svg);
+}
+.fylo__landingpage footer #footer__content .nav .nav-link {
+  color: var(--white);
+  margin-bottom: 10px;
+}
+.fylo__landingpage footer #footer__content .social {
+  display: flex;
+  gap: 10px;
+}
+.fylo__landingpage footer #footer__content .social a {
+  width: 30px;
+}
+.fylo__landingpage footer #footer__content .social .icon-facebook::before {
+  content: url(/assets/img/fb.svg);
+}
+.fylo__landingpage footer #footer__content .social .icon-twitter:before {
+  content: url(/assets/img/tw.svg);
+}
+.fylo__landingpage footer #footer__content .social .icon-instagram::before {
+  content: url(/assets/img/in.svg);
 }/*# sourceMappingURL=style.css.map */
