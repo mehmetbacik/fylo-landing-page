@@ -253,4 +253,229 @@
 }
 .fylo__landingpage footer #footer__content .social .icon-instagram::before {
   content: url(/assets/img/in.svg);
+}
+
+@media (max-width: 768px) {
+  .fylo__landingpage {
+    font-size: 12px;
+  }
+  .fylo__landingpage header nav {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .fylo__landingpage header nav .navbar-brand img {
+    width: 110px;
+  }
+  .fylo__landingpage header nav .header__menu__nav .navbar-nav {
+    gap: 30px;
+  }
+  .fylo__landingpage main #main__get__started {
+    text-align: center;
+    margin-bottom: 100px;
+    background-image: url(/assets/img/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 30%;
+  }
+  .fylo__landingpage main #main__get__started .mgs__image {
+    margin-bottom: 50px;
+  }
+  .fylo__landingpage main #main__get__started .mgs__image img {
+    width: 100%;
+  }
+  .fylo__landingpage main #main__get__started .mgs__title {
+    margin-bottom: 30px;
+  }
+  .fylo__landingpage main #main__get__started .mgs__title span {
+    font-size: 25px;
+  }
+  .fylo__landingpage main #main__get__started .mgs__content {
+    padding: 0 10%;
+    margin-bottom: 20px;
+  }
+  .fylo__landingpage main #main__get__started .mgs__content p {
+    font-size: 14px;
+  }
+  .fylo__landingpage main #main__get__started .mgs__button {
+    margin-bottom: 20px;
+  }
+  .fylo__landingpage main #main__get__started .mgs__button a {
+    padding: 15px 60px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .fylo__landingpage main #main__icons {
+    margin-bottom: 70px;
+  }
+  .fylo__landingpage main #main__icons .mi__content {
+    margin-bottom: 50px;
+  }
+  .fylo__landingpage main #main__icons .mi__content .mi__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 100px;
+  }
+  .fylo__landingpage main #main__icons .mi__content .mi__item img {
+    margin-bottom: 40px;
+  }
+  .fylo__landingpage main #main__icons .mi__content .mi__item span {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .fylo__landingpage main #main__icons .mi__content .mi__item p {
+    text-align: center;
+  }
+  .fylo__landingpage main #main__see__how__fylo__works {
+    margin-bottom: 120px;
+  }
+  .fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__image img {
+    width: 100%;
+  }
+  .fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 40px;
+  }
+  .fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text span {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text p {
+    margin-bottom: 0;
+  }
+  .fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text a {
+    text-decoration: none;
+    border-bottom: solid 2px var(--cyan__call);
+    padding-bottom: 5px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text a::after {
+    content: url(/assets/img/icon-arrow.svg);
+    line-height: 0;
+  }
+  .fylo__landingpage main #main__comment {
+    margin-bottom: 120px;
+  }
+  .fylo__landingpage main #main__comment .container {
+    background-image: url(/assets/img/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: inherit;
+    padding: 30px 20px;
+  }
+  .fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide {
+    border-radius: 5px;
+  }
+  .fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__content {
+    padding: 25px;
+  }
+  .fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__content span {
+    line-height: 1.5;
+  }
+  .fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 25px 25px;
+  }
+  .fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__profile .mc__profile__image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__profile .mc__profile__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__profile .mc__profile__content .mc__profile__content__name {
+    font-weight: bold;
+  }
+  .fylo__landingpage main #main__comment .swiper .swiper-wrapper .swiper-slide .mc__profile .mc__profile__content .mc__profile__content__job {
+    font-size: 11px;
+  }
+  .fylo__landingpage footer #footer__newsletter {
+    border-radius: 5px;
+    padding: 40px 70px;
+    transform: translateY(80px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .fylo__landingpage footer #footer__newsletter .fn__subscribe .fn__subscribe__intro {
+    margin-bottom: 10px;
+  }
+  .fylo__landingpage footer #footer__newsletter .fn__subscribe .fn__subscribe__intro h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .fylo__landingpage footer #footer__newsletter .fn__subscribe .fn__subscribe__intro p {
+    padding: 0px 10px;
+    margin-bottom: 30px;
+  }
+  .fylo__landingpage footer #footer__newsletter .fn__subscribe .fn__subscribe__form {
+    justify-content: center;
+    gap: 20px;
+  }
+  .fylo__landingpage footer #footer__newsletter .fn__subscribe .fn__subscribe__form input {
+    border-radius: 30px;
+  }
+  .fylo__landingpage footer #footer__content {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .fylo__landingpage footer #footer__content .fc__location {
+    display: flex;
+    gap: 25px;
+    padding-right: 25px;
+  }
+  .fylo__landingpage footer #footer__content .fc__location::before {
+    content: url(/assets/img/icon-location.svg);
+  }
+  .fylo__landingpage footer #footer__content .fc__phone {
+    display: flex;
+    gap: 25px;
+    padding-right: 25px;
+  }
+  .fylo__landingpage footer #footer__content .fc__phone::before {
+    content: url(/assets/img/icon-phone.svg);
+  }
+  .fylo__landingpage footer #footer__content .fc__mail {
+    display: flex;
+    gap: 25px;
+    padding-right: 25px;
+  }
+  .fylo__landingpage footer #footer__content .fc__mail::before {
+    content: url(/assets/img/icon-email.svg);
+  }
+  .fylo__landingpage footer #footer__content .nav .nav-link {
+    margin-bottom: 10px;
+  }
+  .fylo__landingpage footer #footer__content .social {
+    display: flex;
+    gap: 10px;
+  }
+  .fylo__landingpage footer #footer__content .social a {
+    width: 30px;
+  }
+  .fylo__landingpage footer #footer__content .social .icon-facebook::before {
+    content: url(/assets/img/fb.svg);
+  }
+  .fylo__landingpage footer #footer__content .social .icon-twitter:before {
+    content: url(/assets/img/tw.svg);
+  }
+  .fylo__landingpage footer #footer__content .social .icon-instagram::before {
+    content: url(/assets/img/in.svg);
+  }
 }/*# sourceMappingURL=style.css.map */

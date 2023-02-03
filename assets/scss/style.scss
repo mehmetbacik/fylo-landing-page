@@ -283,7 +283,259 @@
 }
 
 @media (max-width: 768px) { 
-    
+    .fylo__landingpage {
+        font-size: 12px;
+        header {
+            nav {
+                margin-top: 20px;
+                margin-bottom: 50px;
+                margin-left: 15px;
+                margin-right: 15px;
+                .navbar-brand {
+                    img {
+                        width: 110px;
+                    }
+                }
+                .header__menu__nav {
+                    .navbar-nav {
+                        gap: 30px;
+                    }
+                }
+            }
+        }
+        main {
+            #main__get__started {
+                text-align: center;
+                margin-bottom: 100px;
+                background-image: url(/assets/img/bg-curvy-mobile.svg);
+                background-repeat: no-repeat;
+                background-position: bottom;
+                background-size: 100% 30%;
+                .mgs__image {
+                    margin-bottom: 50px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .mgs__title {
+                    margin-bottom: 30px;
+                    span {
+                        font-size: 25px;
+                    }
+                }
+                .mgs__content {
+                    padding: 0 10%;
+                    margin-bottom: 20px;
+                    p {
+                        font-size: 14px;
+                    }
+                }
+                .mgs__button {
+                    margin-bottom: 20px;
+                    a {
+                        padding: 15px 60px;
+                        border-radius: 30px;
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            #main__icons {
+                margin-bottom: 70px;
+                .mi__content {
+                    margin-bottom: 50px;
+                    .mi__item {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 10px 100px;
+                        img {
+                            margin-bottom: 40px;
+                        }
+                        span {
+                            font-size: 20px;
+                            font-weight: 600;
+                            text-align: center;
+                            margin-bottom: 10px;
+                        }
+                        p {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            #main__see__how__fylo__works {
+                margin-bottom: 120px;
+                .mshfw__content {
+                    .mshfw__image {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .mshfw__text {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+                        padding-left: 40px;
+                        span {
+                            font-size: 40px;
+                            font-weight: 600;
+                        }
+                        p {
+                            margin-bottom: 0;
+                        }
+                        a {
+                            text-decoration: none;
+                            border-bottom: solid 2px var(--cyan__call);
+                            padding-bottom: 5px;
+                            width: fit-content;
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                            &::after {
+                                content: url(/assets/img/icon-arrow.svg);
+                                line-height: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            #main__comment {
+                margin-bottom: 120px;
+                .container {
+                    background-image: url(/assets/img/bg-quotes.png);
+                    background-repeat: no-repeat;
+                    background-position: left top;
+                    background-size: inherit;
+                    padding: 30px 20px;
+                }
+                .swiper {
+                    .swiper-wrapper {
+                        .swiper-slide {
+                            border-radius: 5px;
+                            .mc__content {
+                                padding: 25px;
+                                span {
+                                    line-height: 1.5;
+                                }
+                            }
+                            .mc__profile {
+                                display: flex;
+                                align-items: center;
+                                gap:10px;
+                                padding: 0px 25px 25px;
+                                .mc__profile__image {
+                                    img {
+                                        width: 50px;
+                                        height: 50px;
+                                        border-radius: 50%;
+                                    }
+                                }
+                                .mc__profile__content {
+                                    display: flex;
+                                    flex-direction: column;
+                                    .mc__profile__content__name {
+                                        font-weight: bold;
+                                    }
+                                    .mc__profile__content__job {
+                                        font-size: 11px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer {
+            #footer__newsletter {
+                border-radius: 5px;
+                padding: 40px 70px;
+                transform: translateY(80px);
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                .fn__subscribe {
+                    .fn__subscribe__intro {
+                        margin-bottom: 10px;
+                        h2 {
+                            font-size: 30px;
+                            font-weight: bold;
+                            margin-bottom: 20px;
+                        }
+                        p {
+                            padding: 0px 10px;
+                            margin-bottom: 30px;
+                        }
+                    }
+                    .fn__subscribe__form {
+                        justify-content: center;
+                        gap: 20px;
+                        input {
+                            border-radius: 30px;
+                        }
+                        button {
+
+                        }
+                    }
+                }
+            }
+            #footer__content {
+                padding-top: 150px;
+                padding-bottom: 150px;
+                .fc__location {
+                    display: flex;
+                    gap: 25px;
+                    padding-right: 25px;
+                    &::before {
+                        content: url(/assets/img/icon-location.svg);
+                    }
+                }
+                .fc__phone {
+                    display: flex;
+                    gap: 25px;
+                    padding-right: 25px;
+                    &::before {
+                        content: url(/assets/img/icon-phone.svg);
+                    }
+                }
+                .fc__mail {
+                    display: flex;
+                    gap: 25px;
+                    padding-right: 25px;
+                    &::before {
+                        content: url(/assets/img/icon-email.svg);
+                    }
+                }
+                .nav {
+                    .nav-link {
+                        margin-bottom: 10px;
+                    }
+                }
+                .social {
+                    display: flex;
+                    gap: 10px;
+                    a {
+                        width: 30px;
+                    }
+                    .icon-facebook {
+                        &::before {
+                            content: url(/assets/img/fb.svg);
+                        }
+                    }
+                    .icon-twitter {
+                        &:before {
+                            content: url(/assets/img/tw.svg);
+                        }
+                    }
+                    .icon-instagram {
+                        &::before {
+                            content: url(/assets/img/in.svg);
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 992px) { 
