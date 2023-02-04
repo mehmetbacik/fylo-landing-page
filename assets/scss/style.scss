@@ -65,6 +65,7 @@
                 margin-bottom: 20px;
                 a {
                     background-color: var(--blue__call);
+                    border-color: var(--blue__call);
                     padding: 15px 60px;
                     border-radius: 30px;
                     font-size: 16px;
@@ -335,7 +336,7 @@
                     a {
                         padding: 15px 60px;
                         border-radius: 30px;
-                        font-size: 16px;
+                        font-size: 12px;
                         font-weight: 600;
                     }
                 }

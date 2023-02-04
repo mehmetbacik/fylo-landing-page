@@ -66,6 +66,7 @@
 }
 .fylo__landingpage main #main__get__started .mgs__button a {
   background-color: var(--blue__call);
+  border-color: var(--blue__call);
   padding: 15px 60px;
   border-radius: 30px;
   font-size: 16px;
@@ -304,7 +305,7 @@
   .fylo__landingpage main #main__get__started .mgs__button a {
     padding: 15px 60px;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 600;
   }
   .fylo__landingpage main #main__icons {
