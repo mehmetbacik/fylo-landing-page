@@ -265,14 +265,6 @@ br.large {
   display: block;
 }
 
-@media (max-width: 576px) {
-  br.small {
-    display: block;
-  }
-  br.large {
-    display: none;
-  }
-}
 @media (max-width: 768px) {
   .fylo__landingpage {
     font-size: 12px;
@@ -386,5 +378,75 @@ br.large {
   }
   .mb-4 {
     margin-bottom: 40px;
+  }
+}
+@media (max-width: 375px) {
+  .fylo__landingpage header nav .navbar-brand img {
+    width: 90px;
+  }
+  .fylo__landingpage header nav .header__menu__nav .navbar-nav {
+    gap: 20px;
+  }
+  .fylo__landingpage main #main__get__started .mgs__title span {
+    font-size: 21px;
+  }
+  .fylo__landingpage main #main__get__started .mgs__content {
+    padding: 0 5%;
+  }
+  .fylo__landingpage main #main__get__started .mgs__content p {
+    font-size: 14px;
+  }
+  .fylo__landingpage main #main__icons .mi__content .mi__item {
+    padding: 10px 20px;
+  }
+  .fylo__landingpage main #main__icons .mi__content .mi__item p {
+    font-size: 14px;
+  }
+  .fylo__landingpage main #main__icons .mi__content .mi__item span {
+    font-size: 18px;
+  }
+  .fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text span {
+    font-size: 16px;
+  }
+  .fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text p {
+    font-size: 13px;
+  }
+  .fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text a {
+    font-size: 13px;
+  }
+}
+@media (max-width: 320px) {
+  .fylo__landingpage header nav .navbar-brand img {
+    width: 90px;
+  }
+  .fylo__landingpage header nav .header__menu__nav .navbar-nav {
+    gap: 20px;
+  }
+  .fylo__landingpage main #main__get__started .mgs__title span {
+    font-size: 20px;
+  }
+  .fylo__landingpage main #main__get__started .mgs__content {
+    padding: 0 5%;
+  }
+  .fylo__landingpage main #main__get__started .mgs__content p {
+    font-size: 14px;
+  }
+  .fylo__landingpage main #main__icons .mi__content .mi__item {
+    padding: 10px 20px;
+  }
+  .fylo__landingpage main #main__icons .mi__content .mi__item p {
+    font-size: 14px;
+  }
+  .fylo__landingpage main #main__icons .mi__content .mi__item span {
+    font-size: 18px;
+  }
+  .fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text span {
+    font-size: 16px;
+  }
+  .fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text p {
+    font-size: 13px;
+  }
+  .fylo__landingpage main #main__see__how__fylo__works .mshfw__content .mshfw__text a {
+    font-size: 13px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -280,7 +280,6 @@
     }
 }
 
-
 br.small {
     display: none;
 }
@@ -288,13 +287,12 @@ br.large {
     display: block;
 }
 
-@media (max-width: 576px) { 
-    br.small {
-        display: block;
-    }
-    br.large {
-        display: none;
-    }
+@media (min-width: 1200px) { 
+    
+}
+
+@media (max-width: 992px) { 
+
 }
 
 @media (max-width: 768px) { 
@@ -350,10 +348,6 @@ br.large {
                 .mi__content {
                     .mi__item {
                         padding: 10px 45px;
-                        img {
-                        }
-                        span {
-                        }
                         p {
                             font-size: 14px;
                         }
@@ -381,8 +375,6 @@ br.large {
                         }
                         a {
                             font-size: 13px;
-                            &::after {
-                            }
                         }
                     }
                 }
@@ -391,30 +383,6 @@ br.large {
                 margin-bottom: 10px;
                 padding-left: 40px;
                 padding-right: 40px;
-                .container {
-                }
-                .swiper {
-                    .swiper-wrapper {
-                        .swiper-slide {
-                            .mc__content {
-                                span {
-                                }
-                            }
-                            .mc__profile {
-                                .mc__profile__image {
-                                    img {
-                                    }
-                                }
-                                .mc__profile__content {
-                                    .mc__profile__content__name {
-                                    }
-                                    .mc__profile__content__job {
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
             }
         }
         footer {
@@ -435,10 +403,6 @@ br.large {
                     .fn__subscribe__form {
                         flex-direction: column;
                         gap: 20px;
-                        input {
-                        }
-                        button {
-                        }
                     }
                 }
             }
@@ -449,16 +413,6 @@ br.large {
                 padding-right: 30px;
                 .fc__location {
                     font-size: 14px;
-                    &::before {
-                    }
-                }
-                .fc__phone {
-                    &::before {
-                    }
-                }
-                .fc__mail {
-                    &::before {
-                    }
                 }
                 .nav {
                     .nav-link {
@@ -467,20 +421,6 @@ br.large {
                 }
                 .social {
                         justify-content: center;
-                    a {
-                    }
-                    .icon-facebook {
-                        &::before {
-                        }
-                    }
-                    .icon-twitter {
-                        &:before {
-                        }
-                    }
-                    .icon-instagram {
-                        &::before {
-                        }
-                    }
                 }
             }
         }
@@ -500,10 +440,126 @@ br.large {
     }
 }
 
-@media (max-width: 992px) { 
-
+@media (max-width: 375px) { 
+    .fylo__landingpage {
+        header {
+            nav {
+                .navbar-brand {
+                    img {
+                        width: 90px;
+                    }
+                }
+                .header__menu__nav {
+                    .navbar-nav {
+                        gap: 20px;
+                    }
+                }
+            }
+        }
+        main {
+            #main__get__started {
+                .mgs__title {
+                    span {
+                        font-size: 21px;
+                    }
+                }
+                .mgs__content {
+                    padding: 0 5%;
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+            #main__icons {
+                .mi__content {
+                    .mi__item {
+                        padding: 10px 20px;
+                        p {
+                            font-size: 14px;
+                        }
+                        span {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+            #main__see__how__fylo__works {
+                .mshfw__content {
+                    .mshfw__text {
+                        span {
+                            font-size: 16px;
+                        }
+                        p {
+                            font-size: 13px;
+                        }
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
-@media (min-width: 1200px) { 
-    
+@media (max-width: 320px) { 
+    .fylo__landingpage {
+        header {
+            nav {
+                .navbar-brand {
+                    img {
+                        width: 90px;
+                    }
+                }
+                .header__menu__nav {
+                    .navbar-nav {
+                        gap: 20px;
+                    }
+                }
+            }
+        }
+        main {
+            #main__get__started {
+                .mgs__title {
+                    span {
+                        font-size: 20px;
+                    }
+                }
+                .mgs__content {
+                    padding: 0 5%;
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+            #main__icons {
+                .mi__content {
+                    .mi__item {
+                        padding: 10px 20px;
+                        p {
+                            font-size: 14px;
+                        }
+                        span {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+            #main__see__how__fylo__works {
+                .mshfw__content {
+                    .mshfw__text {
+                        span {
+                            font-size: 16px;
+                        }
+                        p {
+                            font-size: 13px;
+                        }
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
